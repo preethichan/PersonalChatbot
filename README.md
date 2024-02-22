@@ -1,32 +1,32 @@
-Langchain Chatbot for Multiple PDFs
+#Langchain Chatbot for Multiple PDFs
 
-Langchain chatbot App is a python application that enables personal chat experience
-with your own personal data that includes proprietary data. The Langchain chatbot query's
-information from multiple PDF documents. The Langchain chatbot is build using OpenAI API and free 
+Langchain Chatbot App is a Python application that enables a personal chat experience
+with your data that includes proprietary data. The Langchain chatbot queries
+information from multiple PDF documents. The Langchain chatbot is built using OpenAI API and free 
 Large Language Models (LLMs)
 
-Introduction: 
+##Introduction: 
 
-Data is everywhere. Countless PDFs sits in our personal computer.
+Data is everywhere. Countless PDFs sit on our personal computers.
 The information contained in PDF documents often poses a challenge when trying to 
-retrieve specific information. Langchain Chatbot, personal chatbot application build 
+retrieve specific information. Langchain Chatbot, a personal chatbot application build 
 using OpenAI API and LLMs, transforms the way we interact with PDF content. By seamlessly
-integrating natural language processing and machine learning techniques, Langchain 
+integrating natural language processing and machine learning techniques, the Langchain 
 chatbot offers a powerful conversational interface for querying information from multiple 
 PDFs.
 
-High Level Workflow: An overview of how to use Langchain to chat with your data.
+High-Level Workflow: An overview of how to use Langchain to chat with your data.
 The components that are involved in semantic search.
-![img_1.png](img_1.png)
+![![img_1.png](img_1.png)]
 
 
-Use Case: Business
+###Use Case: Business
 
 1. streamline information retrieval process.
 2. Quick and accurate access to crucial information.
 3. Save time and resources.
 
-How it Works
+####How it Works
 ![img.png](img.png)
 
 The above architecture shows us the sequence of steps that 
@@ -48,7 +48,7 @@ are performed for the application to run.
 6. Response Generation- The selected chunks are passed to the language mode LLM, which
    generates a response based on the relevant content of the PDFs.
 
-Dependencies and Installation
+#####Dependencies and Installation
 
 To install the Langchain Chatbot App, Follow these steps:
 1. Clone the repository to your local machine.
@@ -63,7 +63,7 @@ To install the Langchain Chatbot App, Follow these steps:
 5. Run the App:
    `streamlit run app.py`
 
-Application Usage and Output: 
+######Application Usage and Output: 
 1. Upload Documents Here: Use browse files or drag and drop the pdf files.
 2. Ask anything to your PDF: Use the chat interface to enter your questions related to
    the content of the uploaded PDFs.
