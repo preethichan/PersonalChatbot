@@ -20,13 +20,13 @@ The components that are involved in semantic search.
 ![![img_1.png](img_1.png)]
 
 
-#### Use Case: Business
+### Use Case: Business
 
 1. streamline the information retrieval process.
 2. Quick and accurate access to crucial information.
 3. Save time and resources.
 
-#### How it Works
+### How it Works
 ![img.png](img.png)
 
 The above architecture shows us the sequence of steps that 
@@ -48,7 +48,7 @@ are performed for the application to run.
 6. Response Generation- The selected chunks are passed to the language mode LLM, which
    generates a response based on the relevant content of the PDFs.
 
-##### Dependencies and Installation
+### Dependencies and Installation
 
 To install the Langchain Chatbot App, Follow these steps:
 1. Clone the repository to your local machine.
@@ -63,7 +63,7 @@ To install the Langchain Chatbot App, Follow these steps:
 5. Run the App:
    `streamlit run app.py`
 
-######Application Usage and Output: 
+### Application Usage and Output: 
 1. Upload Documents Here: Use browse files or drag and drop the pdf files.
 2. Ask anything to your PDF: Use the chat interface to enter your questions related to
    the content of the uploaded PDFs.
