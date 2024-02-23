@@ -1,11 +1,11 @@
-#Langchain Chatbot for Multiple PDFs
+# Langchain Chatbot for Multiple PDFs
 
 Langchain Chatbot App is a Python application that enables a personal chat experience
 with your data that includes proprietary data. The Langchain chatbot queries
 information from multiple PDF documents. The Langchain chatbot is built using OpenAI API and free 
 Large Language Models (LLMs)
 
-##Introduction: 
+## Introduction: 
 
 Data is everywhere. Countless PDFs sit on our personal computers.
 The information contained in PDF documents often poses a challenge when trying to 
@@ -15,24 +15,24 @@ integrating natural language processing and machine learning techniques, the Lan
 chatbot offers a powerful conversational interface for querying information from multiple 
 PDFs.
 
-High-Level Workflow: An overview of how to use Langchain to chat with your data.
+### High-Level Workflow: An overview of how to use Langchain to chat with your data.
 The components that are involved in semantic search.
 ![![img_1.png](img_1.png)]
 
 
-###Use Case: Business
+#### Use Case: Business
 
-1. streamline information retrieval process.
+1. streamline the information retrieval process.
 2. Quick and accurate access to crucial information.
 3. Save time and resources.
 
-####How it Works
+#### How it Works
 ![img.png](img.png)
 
 The above architecture shows us the sequence of steps that 
 are performed for the application to run. 
 1. PDF Loading- We use Langchains document loader functions to 
-   import multiple pdf files. 
+   import multiple PDF files. 
 2. Text Splitting- We split the loaded text into semantically meaningful 
    chunks. There are several types of splitters. However, we use characterTextSplitter
    to split text that looks at characters.
@@ -48,7 +48,7 @@ are performed for the application to run.
 6. Response Generation- The selected chunks are passed to the language mode LLM, which
    generates a response based on the relevant content of the PDFs.
 
-#####Dependencies and Installation
+##### Dependencies and Installation
 
 To install the Langchain Chatbot App, Follow these steps:
 1. Clone the repository to your local machine.
