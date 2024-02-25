@@ -27,7 +27,7 @@ The components that are involved in semantic search.
 3. Save time and resources.
 
 ### How it Works
-![img.png]()
+![img.png](https://github.com/preethichan/PersonalChatbot/blob/main/docs/PDF-LangChain.jpg)
 
 The above architecture shows us the sequence of steps that 
 are performed for the application to run. 
