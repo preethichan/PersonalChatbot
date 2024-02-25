@@ -70,5 +70,5 @@ To install the Langchain Chatbot App, Follow these steps:
 3. Interactive responses: The chatbot will generate responses based on the information retrieved
    from the PDFs.
 
-![img_2.png]([img_2.png](https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)
+![img_2.png](https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)
  
