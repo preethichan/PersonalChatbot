@@ -9,7 +9,7 @@ Large Language Models (LLMs)
 
 Data is everywhere. Countless PDFs sit on our personal computers.
 The information contained in PDF documents often poses a challenge when trying to 
-retrieve specific information. Langchain Chatbot, a personal chatbot application build 
+retrieve specific information. Langchain Chatbot, a personal chatbot application built 
 using OpenAI API and LLMs, transforms the way we interact with PDF content. By seamlessly
 integrating natural language processing and machine learning techniques, the Langchain 
 chatbot offers a powerful conversational interface for querying information from multiple 
@@ -37,13 +37,13 @@ are performed for the application to run.
    chunks. There are several types of splitters. However, we use characterTextSplitter
    to split text that looks at characters.
 3. Vectorstores and Embedding- storing the chunks into an index using
-   vector stores and embedding. Embedding takes a piece of text and create
+   vector stores and embedding. Embedding takes a piece of text and creates
    a numerical representation of that text. Text with similar content
    will have similar vectors in numeric space. Vector store is a database to
    look up similar vectors white retrieval.
 4. Language Model- The application utilizes a Large Language model to generate
    vector representation(embeddings) of the text chunks.
-5. Similarity Matching- When user ask question, the app compares it with the text 
+5. Similarity Matching- When the user asks the question, the app compares it with the text 
    chunks and identifies the most semantically similar ones.
 6. Response Generation- The selected chunks are passed to the language mode LLM, which
    generates a response based on the relevant content of the PDFs.
@@ -52,9 +52,9 @@ are performed for the application to run.
 
 To install the Langchain Chatbot App, Follow these steps:
 1. Clone the repository to your local machine.
-2. Install the required dependencies by running the following commandL
+2. Install the required dependencies by running the following command
    `pip install -r requirements.txt`
-3. Create Virtual Environment using following command:
+3. Create a Virtual Environment using the following command:
   ` pip install virtualenv
     python<version> -m venv <virtual-environment-name>
     <virtual-environment-name>\Scripts\activate`
@@ -70,5 +70,5 @@ To install the Langchain Chatbot App, Follow these steps:
 3. Interactive responses: The chatbot will generate responses based on the information retrieved
    from the PDFs.
 
-![img_2.png](img_2.png)
+![img_2.png]([img_2.png](https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)https://github.com/preethichan/PersonalChatbot/blob/main/docs/Output.png)
  
