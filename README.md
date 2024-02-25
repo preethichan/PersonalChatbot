@@ -17,7 +17,7 @@ PDFs.
 
 ### High-Level Workflow: An overview of how to use Langchain to chat with your data.
 The components that are involved in semantic search.
-![![img_1.png](img_1.png)]
+(https://github.com/preethichan/PersonalChatbot/blob/main/docs/RAG.jpg))]
 
 
 ### Use Case: Business
