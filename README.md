@@ -40,7 +40,7 @@ are performed for the application to run.
    vector stores and embedding. Embedding takes a piece of text and creates
    a numerical representation of that text. Text with similar content
    will have similar vectors in numeric space. Vector store is a database to
-   look up similar vectors white retrieval.
+   look up similar vectors while retrieval.
 4. Language Model- The application utilizes a Large Language model to generate
    vector representation(embeddings) of the text chunks.
 5. Similarity Matching- When the user asks the question, the app compares it with the text 
